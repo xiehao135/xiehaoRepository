@@ -1,0 +1,48 @@
+/* pages/main/main.wxss */
+.item-container{
+  display: flex;
+}
+.image{
+  height: 100rpx;
+  flex: 1;
+}
+.content{
+  flex:2;
+}
+.title{
+  font-weight: blod;
+  flex: 2;
+}
+.action{
+  flex: 1;
+}
+.action2{
+  display: flex;
+  flex: 0.5;
+}
+.tag{
+  padding: 0 5rpx;
+  background: red;
+  border-radius: 20%;
+  margin: 5rpx;
+  color: white;
+  font-size: 28rpx;
+}
+.cart{
+  padding: 5rpx;
+  background: red;
+  border-radius: 40%;
+  color: white;
+  width: 30rpx;
+  height: 30rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.button{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 46rpx;
+}

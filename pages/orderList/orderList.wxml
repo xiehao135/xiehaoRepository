@@ -1,0 +1,21 @@
+<!--pages/orderList/orderList.wxml-->
+<view class="main">
+  <view class="title-order">
+    <text>Order List</text>
+  </view>
+
+  <view wx:for="{{list}}" class="table" bindtap="toOrder" data-couse="{{item.couse}}">
+    <view class="date">{{item.time}}</view> 
+    <view class="content-view">
+      <image src="{{item.image}}" class="pic"></image>
+      <view class="content">
+        {{item.couse}}
+      </view>
+      <view class="transation_content">
+        <text>Transation Value: $</text>
+        {{item.transationValue}}
+      </view>
+    </view>
+  </view>
+
+</view>
